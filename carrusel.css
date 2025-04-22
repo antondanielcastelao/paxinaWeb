@@ -1,12 +1,13 @@
 .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    width: 100%;
 }
 .slide-inner {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 300px + 3em);
+    height: calc( 600px + 3em);
 }
 .slide-open:checked + .slide-item {
     position: static;
@@ -20,8 +21,11 @@
 }
 .slide-item img {
     display: block;
-    height: auto;
+    height: 500px;
+    width: 100%;
     max-width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .slide-control {
     background: rgba(0, 0, 0, 0.28);
