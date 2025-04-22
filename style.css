@@ -19,7 +19,7 @@ body {
     width: 90%;
     height: 100px;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 5%;
     z-index: 100;
 }
 
@@ -77,4 +77,136 @@ body {
     align-items: center;
     width: 90%;
     height: 100%;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    color: white;
+}
+
+.proyectos h1 {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 50px;
+}
+
+.proyectos h2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    font-size: 40px;
+
+    color: white;
+}
+
+.proyectos p {
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.proyecto-ezpos {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    color: white;
+}
+
+#ezposimg {
+    width: 90%;
+    height: 90%;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.imagen {
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    color: white;
+}
+
+.skills h1 {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 50px;
+
+}
+
+.skills h2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 40px;
+}
+
+.skills p {
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.skills li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    color: white;
+}
+
+.contacto h1 {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 50px;
+
 }
